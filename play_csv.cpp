@@ -1,3 +1,7 @@
+/*
+  Play a csv file as a single channel audio source
+ */
+
 #include <pulse/simple.h>
 #include <pulse/error.h>
 

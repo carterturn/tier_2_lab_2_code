@@ -1,3 +1,7 @@
+/*
+  Calculate the frequency of a beat envelop
+ */
+
 #include <GLFW/glfw3.h>
 #include <FTGL/ftgl.h>
 
@@ -16,7 +20,7 @@
 
 #include <fftw3.h>
 
-using namespace std; // I am a monster, I believe
+using namespace std;
 using namespace std::chrono;
 using std::this_thread::sleep_for;
 
